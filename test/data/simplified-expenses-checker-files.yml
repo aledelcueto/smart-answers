@@ -1,7 +1,7 @@
 ---
-lib/smart_answer_flows/simplified-expenses-checker.rb: fae597cf22ba42ee7a345d92a2362704
-test/data/simplified-expenses-checker-questions-and-responses.yml: 78d65c9926de9f495148369b29a2b600
-test/data/simplified-expenses-checker-responses-and-expected-results.yml: 3f364543e0ec9732cf84e5c5810eec06
+lib/smart_answer_flows/simplified-expenses-checker.rb: 9e133f49becf5c29a70bc9459e6f1bee
+test/data/simplified-expenses-checker-questions-and-responses.yml: 66de79b2882675671aa80f2e9bef1d61
+test/data/simplified-expenses-checker-responses-and-expected-results.yml: 483db36264d39e10d295ea29d8083587
 lib/smart_answer_flows/simplified-expenses-checker/outcomes/capital_allowance_result.govspeak.erb: 0f738efb15d8d63ebb9f824eb4010744
 lib/smart_answer_flows/simplified-expenses-checker/outcomes/you_can_use_result.govspeak.erb: c688eef5f6cc7fdfee645d1198a3ee7f
 lib/smart_answer_flows/simplified-expenses-checker/outcomes/you_cant_claim_capital_allowance.govspeak.erb: ce5b4e04d999e918d236a47861d71114
@@ -17,7 +17,7 @@ lib/smart_answer_flows/simplified-expenses-checker/questions/drive_business_mile
 lib/smart_answer_flows/simplified-expenses-checker/questions/home_or_business_premises_expense.govspeak.erb: be3746a7772c7f22003d9814aa11b07a
 lib/smart_answer_flows/simplified-expenses-checker/questions/hours_work_home.govspeak.erb: 41b408209957ac9297effcf53d31a15e
 lib/smart_answer_flows/simplified-expenses-checker/questions/how_much_expect_to_claim.govspeak.erb: 619162f97b2e5b00bdcf412fc0179a9a
-lib/smart_answer_flows/simplified-expenses-checker/questions/is_vehicle_green.govspeak.erb: a8c3eeca9ac089c8d105424ebeb52014
+lib/smart_answer_flows/simplified-expenses-checker/questions/is_vehicle_green.govspeak.erb: 8a4b9d3899c3a2da60f815ef3e9084d0
 lib/smart_answer_flows/simplified-expenses-checker/questions/people_live_on_premises.govspeak.erb: 7f2526953dd971df560a129336734d86
 lib/smart_answer_flows/simplified-expenses-checker/questions/price_of_vehicle.govspeak.erb: ce043c19141d0e044a0ec1edb042591b
 lib/smart_answer_flows/simplified-expenses-checker/questions/type_of_expense.govspeak.erb: 6accfbd7201311005baa73c335999688
