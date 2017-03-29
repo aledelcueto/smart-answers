@@ -1,5 +1,5 @@
 ---
-lib/smart_answer_flows/simplified-expenses-checker.rb: 75a063e0f8f7926a18061d38344025a0
+lib/smart_answer_flows/simplified-expenses-checker.rb: 54163a760d6446a776112e8f846c5769
 test/data/simplified-expenses-checker-questions-and-responses.yml: 66de79b2882675671aa80f2e9bef1d61
 test/data/simplified-expenses-checker-responses-and-expected-results.yml: 483db36264d39e10d295ea29d8083587
 lib/smart_answer_flows/simplified-expenses-checker/outcomes/capital_allowance_result.govspeak.erb: 54edd5196e5d95c30416ad330195a372
