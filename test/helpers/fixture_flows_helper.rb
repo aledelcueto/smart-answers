@@ -1,4 +1,16 @@
 module FixtureFlowsHelper
+  BUTTON_TEXT_AND_LINK_FIXTURE = {
+    "overseas-passports": {
+      start_button_text: "Continue",
+      href: "/overseas-passports/y"
+    },
+    "calculate-your-child-maintenance": {
+      start_button_text: "Calculate your child maintenance",
+      href: "/calculate-your-child-maintenance/y"
+    }
+  }.with_indifferent_access
+  private_constant :BUTTON_TEXT_AND_LINK_FIXTURE
+
   def setup_fixture_flows
     stub_request(:get, %r{#{Plek.new.find("content-store")}/content/(.*)})
       .to_return(status: 404, body: {}.to_json)
@@ -20,5 +32,16 @@ module FixtureFlowsHelper
     Services.content_store.stubs(:content_item)
       .with("/#{smart_answer_id}")
       .returns({})
+  end
+
+  def button_text_and_link(smart_answer_slug)
+    if BUTTON_TEXT_AND_LINK_FIXTURE.has_key?(smart_answer_slug)
+      BUTTON_TEXT_AND_LINK_FIXTURE[smart_answer_slug]
+    else
+      {
+        start_button_text: "Start now",
+        href: "/#{smart_answer_slug}/y"
+      }
+    end
   end
 end
