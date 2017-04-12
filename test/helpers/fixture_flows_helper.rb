@@ -2,7 +2,7 @@ module FixtureFlowsHelper
   BUTTON_TEXT_AND_LINK_FIXTURE = {
     "overseas-passports": {
       start_button_text: "Continue",
-      href: "/overseas-passports/y"
+      href: "https://www.passport.service.gov.uk/filter"
     },
     "calculate-your-child-maintenance": {
       start_button_text: "Calculate your child maintenance",
